@@ -3,6 +3,11 @@ header('Access-Control-Allow-Origin:*', "Refresh: 2");
 header('Access-Control-Allow-Methods:POST,GET,OPTIONS,PUT,DELETE');
 header('Access-Control-Allow-Headers:Content-Type, X-Auth-Token, Origin,Authorization');
 
+/* $server='localhost';
+$user='id21050393_t6';
+$password='t6DB_pass';
+$db='id21050393_t6db'; */ 
+
     $server='bcqp479udwqz62nmdf0v-mysql.services.clever-cloud.com';
 	$user='uzdexamochtagwss';
 	$password='xyuBgDdtI8GvV6TnKjhx';
