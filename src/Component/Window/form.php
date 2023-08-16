@@ -8,10 +8,10 @@ header('Access-Control-Allow-Headers:Content-Type, X-Auth-Token, Origin,Authoriz
 	$db="id21139145_ichat"; */
 
     //------------------
-    $server='sql.freedb.tech';
-	$user='freedb_User_IChatDB';
-	$password='@t#TVRttHt3hmn5';
-	$db='freedb_IChatDB'; 
+    $server='bcqp479udwqz62nmdf0v-mysql.services.clever-cloud.com';
+	$user='uzdexamochtagwss';
+	$password='xyuBgDdtI8GvV6TnKjhx';
+	$db='bcqp479udwqz62nmdf0v'; 
     //-------------------
 
     if(isset($_POST["name"])){$name=$_POST['name'];}else{$name= "";}
