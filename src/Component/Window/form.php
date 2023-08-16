@@ -2,6 +2,14 @@
 header('Access-Control-Allow-Origin:*', "Refresh: 2");
 header('Access-Control-Allow-Methods:POST,GET,OPTIONS,PUT,DELETE');
 header('Access-Control-Allow-Headers:Content-Type, X-Auth-Token, Origin,Authorization');
+
+$cfg['Servers'][$i]['ssl'], 
+$cfg['Servers'][$i]['ssl_key'],
+$cfg['Servers'][$i]['ssl_cert'], 
+$cfg['Servers'][$i]['ssl_ca'], 
+$cfg['Servers'][$i]['ssl_ca_path'], 
+$cfg['Servers'][$i]['ssl_ciphers'], 
+$cfg['Servers'][$i]['ssl_verify']
     $server='bcqp479udwqz62nmdf0v-mysql.services.clever-cloud.com';
 	$user='uzdexamochtagwss';
 	$password='xyuBgDdtI8GvV6TnKjhx';
