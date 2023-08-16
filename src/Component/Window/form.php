@@ -2,17 +2,10 @@
 header('Access-Control-Allow-Origin:*', "Refresh: 2");
 header('Access-Control-Allow-Methods:POST,GET,OPTIONS,PUT,DELETE');
 header('Access-Control-Allow-Headers:Content-Type, X-Auth-Token, Origin,Authorization');
-    /* $server="localhost";
-	$user="root";
-	$password="";
-	$db="id21139145_ichat"; */
-
-    //------------------
     $server='bcqp479udwqz62nmdf0v-mysql.services.clever-cloud.com';
 	$user='uzdexamochtagwss';
 	$password='xyuBgDdtI8GvV6TnKjhx';
 	$db='bcqp479udwqz62nmdf0v'; 
-    //-------------------
 
     if(isset($_POST["name"])){$name=$_POST['name'];}else{$name= "";}
     if(isset($_POST["text"])){$text=$_POST['text'];}else{$text= "";}

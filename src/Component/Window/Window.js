@@ -31,9 +31,11 @@ const WindowReduxForm = reduxForm({ form: "message" })(WindowForm);
 const Window = (props) => {
   const messageData = props.message.Message;
   const tagFilter =getTags(props.message.Filter);
-  tagFilter.push(null);
-  let filterMessages = messageData.filter((o) => tagFilter.includes(o.tag));
-  const messageList =tagFilter.length > 1? filterMessages: messageData;
+  debugger;
+  let x=[''].concat(tagFilter);
+  debugger;
+  let filterMessages = messageData.filter((o) => x.includes(o.tag));
+  const messageList =x.length > 1? filterMessages: messageData;
   function onSubmit(formData) {
     const tag = tagWord(formData.text);
     let fData = new FormData();
